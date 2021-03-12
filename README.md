@@ -25,7 +25,8 @@ Terraform module to create security groups in AWS.
 
 ## Outputs
 
-None
+* sg\_id = Return the security group resource id.
+* sg\_name = Return the security group resource name. 
 
 ## License
 
