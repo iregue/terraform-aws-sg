@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_tls" {
+resource "aws_security_group" "my_securitygroup" {
   name        = var.securitygroup_name
 
   ingress {
