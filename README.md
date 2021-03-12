@@ -13,6 +13,7 @@ Terraform module to create security groups in AWS.
 | --------- | ----------  | ---------|
 | securitygroup\_name | The name of the Security Group | String |
 | allowed\_ips | List of allowed Ips | list |
+| var.allowed\_sgs | List of allowed sgs | list |
 | ingress\_protocol | Security group protocol. Default TCP | String |
 | ingress\_from\_port | Allow ingress from port. Default 0 | number |
 | ingress\_to\_port | Allow ingress to port. Default 65535 | number |

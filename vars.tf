@@ -9,6 +9,13 @@ variable "allowed_ips" {
   description = "List of allowed Ips"
 }
 
+variable "allowed_sgs" {
+  type        = list
+  default     = []
+  description = "List of allowed SecurityGroups"
+}
+
+
 variable "ingress_protocol" {
   type        = string
   default     = "tcp"

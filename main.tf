@@ -6,6 +6,7 @@ resource "aws_security_group" "my_securitygroup" {
     to_port     = var.ingress_to_port
     protocol    = var.ingress_protocol
     cidr_blocks = var.allowed_ips
+    security_groups = var.allowed_sgs
   }
 
   egress {
